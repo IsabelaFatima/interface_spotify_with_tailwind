@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+         graySpotify: {
+          50: '#1A1A1A',
+           100: '#121212',
+           200: '#2A2A2A',
+         },
+         greenSpotify: {
+           100: '#2AD164',
+         },
+      }
+    },
   },
   plugins: [],
 }
